@@ -6,8 +6,9 @@
 
 # YOUR CODE HERE
 
-def f1(a1, a2):
-    return a1+a2
+def f1(a, b):
+    return a+b
+
 print(f1(1, 2))
 
 # Write a function f2 that takes any number of integer arguments and returns the
@@ -59,6 +60,7 @@ print(f3(8))     # Should print 9
 def f4(**kwargs):
     for key, val in kwargs.items():
         print(f"key: {key}, value: {val}")
+        ## print("key: {}, value: {}".format(key, val))
 
 
 # Should print
