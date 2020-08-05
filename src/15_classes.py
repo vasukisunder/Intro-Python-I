@@ -40,18 +40,16 @@ class Geocache(Waypoint):
 
 # YOUR CODE HERE
 
-test = Waypoint(41.70505, -121.51521, "Catacombs")
-print(test)
+waypoint = Waypoint(41.70505, -121.51521, "Catacombs")
 
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
-print(Waypoint)
+print(waypoint)
 
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 
 # YOUR CODE HERE
-test2 = Geocache(44.052137, -121.41556, "Newberry Views", "1.5", "size 2")
-print(test2)
+geocache = Geocache(44.052137, -121.41556, "Newberry Views", "1.5", "size 2")
 
 # Print it--also make this print more nicely
-print(Geocache)
+print(geocache)
